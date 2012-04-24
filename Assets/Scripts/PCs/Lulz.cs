@@ -4,6 +4,7 @@ using System.Collections;
 public class Lulz : MonoBehaviour {
 
 	void Update () {
+		///oi eu sou feliz
 		float zpeed = 0.2f;
 		float z=transform.position.z;
 		float x=transform.position.x;
@@ -19,7 +20,7 @@ public class Lulz : MonoBehaviour {
 		if (Input.touchCount == 2) {
 			x+=zpeed;
 		}
-		
+		// hello world
 		transform.position=new Vector3(x,transform.position.y,z);
 		GlobalVars.herox=transform.position.x;
 		GlobalVars.heroz=transform.position.z;
