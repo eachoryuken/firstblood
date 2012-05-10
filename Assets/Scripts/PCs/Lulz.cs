@@ -4,7 +4,7 @@ using System.Collections;
 public class Lulz : MonoBehaviour {
 
 	void Update () {
-	//dyrtytyrty
+
 		float zpeed = 0.2f;
 		float z=transform.position.z;
 		float x=transform.position.x;
